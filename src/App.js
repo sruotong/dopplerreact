@@ -64,8 +64,8 @@ export class App extends React.Component {
         </header>
         <div className="content">
           <div className="img-container">
-            <div className="img-cover" style={this.state.hueColor}></div>
-            <img src={star} />
+            <div className="img-cover" style={this.state.hueColor} ></div>
+            <img src={star} alt="a star" />
           </div>
           <div className="input-container">
             <VelocityInput value={this.state.velocityValue} velocityChange={(velocity) => this.onVelocityChange(velocity)}></VelocityInput>
