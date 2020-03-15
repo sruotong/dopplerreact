@@ -12,6 +12,7 @@
   height: 100%;
   width: 100%;
   mix-blend-mode: hue;
+  -webkit-mask-box-image: url("./images/star-small.png");
 }
 
 .App-header {
